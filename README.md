@@ -4,6 +4,22 @@ This project was completed by Lauren Garvey.
 
 In this repository is a program that implements noise gating, flanging, and TK effects to a drum synthesizer component, built on top of the Synthie program provided by the CSE 471 professors at MSU. Also included are audio files demonstrating the effects and the synthesizer. Finally, there is a piece showing off all of the components working together.
 
+## Score file format
+
+When generating the audio files, the program uses XML score files titled in the format "title.score". Each score file starts by identifying itself as an XML file, with the corresponding version and UTF encoding. Next is the 'score' tag, which specifies the beats per minute ('bpm') and the beats per measure. Nested in the score tag are the instrument tags, which can be specified as a BassDrum, SnareDrum, LeftTom, RightTom, Cymbals, ToneInstrument, NoiseGate, Flanging, or TK effect. All of these instrument tags then specify their own notes, which tell the program when and how that instrument should play. Common to every instrument are the measure when the note should be played ('measure'), the beat in that measure to play on ('beat'), how long to play that note ('duration'), and the note itself ('note').
+
+The last three listed instruments are effects components:
+
+- Flanging mixes two signals and delays one by a small and changing period. Its note tags additionally specify the maximum delay a signal can be ('delay'), the frequency at which the signal should modulate ('frequency'), and how many signals should be stored and repeated ('buffersize').
+- Noise gating stops sounds below a specified threshold from playing. Its note tags additionally specify the minimum frequency a signal must reach in order for the program to play its audio ('threshold'), the fade-in duration from silence to playing a given note ('attack'), and the fade-out duration from playing a given note to silence ('release').
+- TK effect does something else. Its note tags additionally specify other stuff.
+
+The first five listed are various drum synthesizer components. Common to all five are characteristics for envelope generation, which details how the note should begin and end. These characteristics are how long it should take for the sound to reach peak amplitude ('attack'), how long it should take for the sound to decay to its sustaining level ('decaytime'), the amplitude level during the sustaining phase ('sustainlevel'), and how long it should take for the sound to fade out after releasing ('release').
+
+- The BassDrum produces a lower and longer sound. Its note tags additionally specify how long it takes to reach the peak amplitude
+
+## Music pieces
+
 First, here is the main piece, titled TK title:
 
 TK main song
