@@ -1,6 +1,6 @@
 # 471-Project-1
 
-This project was completed by Lauren Garvey.
+This project was completed by Lauren Garvey. ChatGPT was used for determining the basic structure of generating waveform tables.
 
 In this repository is a program that implements noise gating, flanging, and compression effects to a drum synthesizer component, built on top of the Synthie program provided by the CSE 471 professors at MSU. Also included are audio files demonstrating the effects and the synthesizer. Finally, there is a piece showing off all of the components working together.
 
