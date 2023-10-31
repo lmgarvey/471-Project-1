@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<score bpm="120" beatspermeasure="2">
+
+     <instrument instrument="BassDrum">
+          <note measure="1" beat="1" duration="1.5" note="Bb4"
+		attack="0.01" decaytime="0.05" sustainlevel="0.2"
+		release="0.3" amplitude="20"/>
+          <note measure="2" beat="1" duration="1.5" note="Bb4"
+		attack="0.01" decaytime="0.05" sustainlevel="0.2"
+		release="0.3" amplitude="20"/>
+
+	  <note measure="3" beat="1" duration="1" note="Bb4"
+		attack="0.01" decaytime="0.05" sustainlevel="0.2"
+		release="0.3" amplitude="10"/>
+	  <note measure="3" beat="2" duration="1" note="Bb4"
+		attack="0.01" decaytime="0.05" sustainlevel="0.2"
+		release="0.3" amplitude="10"/>
+          <note measure="4" beat="1" duration="1" note="Bb4"
+		attack="0.01" decaytime="0.05" sustainlevel="0.2"
+		release="0.3" amplitude="10"/>
+          <note measure="4" beat="2" duration="1" note="Bb4"
+		attack="0.01" decaytime="0.05" sustainlevel="0.2"
+		release="0.3" amplitude="10"/>
+
+          <note measure="5" beat="1" duration="1" note="Bb4"
+		attack="0.01" decaytime="0.05" sustainlevel="0.2"
+		release="0.3" amplitude="10"/>
+          <note measure="5" beat="1.5" duration="1" note="Bb4"
+		attack="0.01" decaytime="0.05" sustainlevel="0.2"
+		release="0.3" amplitude="10"/>
+          <note measure="5" beat="2" duration="1" note="Bb4"
+		attack="0.01" decaytime="0.05" sustainlevel="0.2"
+		release="0.3" amplitude="10"/>
+          <note measure="5" beat="2.5" duration="1" note="Bb4"
+		attack="0.01" decaytime="0.05" sustainlevel="0.2"
+		release="0.3" amplitude="10"/>
+
+          <note measure="6" beat="1" duration="1" note="Bb4"
+		attack="0.01" decaytime="0.05" sustainlevel="0.2"
+		release="0.3" amplitude="10"/>
+          <note measure="6" beat="1.5" duration="1" note="Bb4"
+		attack="0.01" decaytime="0.05" sustainlevel="0.2"
+		release="0.3" amplitude="10"/>
+          <note measure="6" beat="2" duration="1" note="Bb4"
+		attack="0.01" decaytime="0.05" sustainlevel="0.2"
+		release="0.3" amplitude="10"/>
+          <note measure="6" beat="2.5" duration="1" note="Bb4"
+		attack="0.01" decaytime="0.05" sustainlevel="0.2"
+		release="0.3" amplitude="10"/>
+
+          <note measure="7" beat="1" duration="1" note="Bb4"
+		attack="0.01" decaytime="0.05" sustainlevel="0.2"
+		release="0.3" amplitude="10"/>
+          <note measure="7" beat="2.4" duration="1" note="Bb4"
+		attack="0.01" decaytime="0.05" sustainlevel="0.2"
+		release="0.3" amplitude="10"/>
+          <note measure="7" beat="2.6" duration="1" note="Bb4"
+		attack="0.01" decaytime="0.05" sustainlevel="0.2"
+		release="0.3" amplitude="10"/>
+          <note measure="7" beat="2.8" duration="1" note="Bb4"
+		attack="0.01" decaytime="0.05" sustainlevel="0.2"
+		release="0.3" amplitude="10"/>
+
+          <note measure="11" beat="2" duration="1" note="Bb4"
+		attack="0.01" decaytime="0.05" sustainlevel="0.2"
+		release="0.3" amplitude="10"/>
+     </instrument>
+
+
+     <instrument instrument="Cymbals">
+          <note measure="11" beat="2" duration="5" note="Bb4"
+		attack="0.5" decaytime="0.5" sustainlevel="0.01"
+		release="4" amplitude="0.001"/>
+     </instrument>
+
+
+     <instrument instrument="LeftTom">
+          <note measure="1" beat="1" duration="1" note="Bb4"
+		attack="0.01" decaytime="0.05" sustainlevel="0.2"
+		release="0.3" amplitude="0.5"/>
+          <note measure="1" beat="2.5" duration="1" note="Bb4"
+		attack="0.01" decaytime="0.05" sustainlevel="0.2"
+		release="0.3" amplitude="0.5"/>
+          <note measure="1" beat="2.75" duration="1" note="Bb4"
+		attack="0.01" decaytime="0.05" sustainlevel="0.2"
+		release="0.3" amplitude="0.5"/>
+          <note measure="2" beat="1" duration="1" note="Bb4"
+		attack="0.01" decaytime="0.05" sustainlevel="0.2"
+		release="0.3" amplitude="0.5"/>
+
+          <note measure="2" beat="2.5" duration="1" note="Bb4"
+		attack="0.01" decaytime="0.05" sustainlevel="0.2"
+		release="0.3" amplitude="0.5"/>
+          <note measure="2" beat="2.75" duration="1" note="Bb4"
+		attack="0.01" decaytime="0.05" sustainlevel="0.2"
+		release="0.3" amplitude="0.5"/>
+
+	  <note measure="3" beat="1" duration="1" note="Bb4"
+		attack="0.01" decaytime="0.05" sustainlevel="0.2"
+		release="0.3" amplitude="0.5"/>
+	  <note measure="3" beat="2" duration="1" note="Bb4"
+		attack="0.01" decaytime="0.05" sustainlevel="0.2"
+		release="0.3" amplitude="0.5"/>
+          <note measure="4" beat="1" duration="1" note="Bb4"
+		attack="0.01" decaytime="0.05" sustainlevel="0.2"
+		release="0.3" amplitude="0.5"/>
+     </instrument>
+
+
+     <instrument instrument="RightTom">
+          <note measure="8" beat="1" duration="1" note="Bb4"
+		attack="0.01" decaytime="0.2" sustainlevel="0.2"
+		release="0" amplitude="5"/>
+          <note measure="8" beat="2" duration="1" note="Bb4"
+		attack="0.01" decaytime="0.2" sustainlevel="0.2"
+		release="0" amplitude="5"/>
+          <note measure="9" beat="1" duration="1" note="Bb4"
+		attack="0.01" decaytime="0.2" sustainlevel="0.2"
+		release="0" amplitude="5"/>
+          <note measure="9" beat="2" duration="1" note="Bb4"
+		attack="0.01" decaytime="0.2" sustainlevel="0.2"
+		release="0" amplitude="5"/>
+          <note measure="10" beat="1" duration="1" note="Bb4"
+		attack="0.01" decaytime="0.2" sustainlevel="0.2"
+		release="0" amplitude="5"/>
+          <note measure="10" beat="2" duration="1" note="Bb4"
+		attack="0.01" decaytime="0.2" sustainlevel="0.2"
+		release="0" amplitude="5"/>
+     </instrument>
+
+
+     <instrument instrument="SnareDrum">
+          <note measure="8" beat="1" duration="1" note="Bb4"
+		attack="0.01" decaytime="0.2" sustainlevel="0.2"
+		release="0" amplitude="5"/>
+          <note measure="8" beat="2" duration="1" note="Bb4"
+		attack="0.01" decaytime="0.2" sustainlevel="0.2"
+		release="0" amplitude="5"/>
+          <note measure="8" beat="2.5" duration="1" note="Bb4"
+		attack="0.01" decaytime="0.2" sustainlevel="0.2"
+		release="0" amplitude="5"/>
+
+          <note measure="9" beat="1" duration="1" note="Bb4"
+		attack="0.01" decaytime="0.2" sustainlevel="0.2"
+		release="0" amplitude="5"/>
+          <note measure="9" beat="2" duration="1" note="Bb4"
+		attack="0.01" decaytime="0.2" sustainlevel="0.2"
+		release="0" amplitude="5"/>
+          <note measure="9" beat="2.5" duration="1" note="Bb4"
+		attack="0.01" decaytime="0.2" sustainlevel="0.2"
+		release="0" amplitude="5"/>
+
+
+          <note measure="9" beat="1" duration="1" note="Bb4"
+		attack="0.01" decaytime="0.2" sustainlevel="0.2"
+		release="0" amplitude="5"/>
+          <note measure="9" beat="2" duration="1" note="Bb4"
+		attack="0.01" decaytime="0.2" sustainlevel="0.2"
+		release="0" amplitude="5"/>
+          <note measure="10" beat="1" duration="1" note="Bb4"
+		attack="0.01" decaytime="0.2" sustainlevel="0.2"
+		release="0" amplitude="5"/>
+          <note measure="10" beat="2" duration="1" note="Bb4"
+		attack="0.01" decaytime="0.2" sustainlevel="0.2"
+		release="0" amplitude="5"/>
+
+          <note measure="11" beat="1" duration="1" note="Bb4"
+		attack="0.01" decaytime="0.2" sustainlevel="0.2"
+		release="0" amplitude="5"/>
+     </instrument>
+
+</score>
