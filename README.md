@@ -14,13 +14,13 @@ First, here is the main piece, titled 'Chump Digga Dump Bump':
 
 https://github.com/lmgarvey/471-Project-1/assets/94126547/381681aa-2267-4c20-91b8-0540d1114756
 
-Included in this repository with the filename 'Chump Digga Dump Bump.score' is the XML file detailing the score used for this selection. As shown in that file, the scores used for this program are in XML format, and are broken up by instruments - this can be a ToneInstrument, a drum synthesizer instrument, or one of the effects. Each of the effects then further specify their unique information within a 'note' tag in the XML - for example, the flanging effect specifies a maximum delay, frequency, and buffer size for its implementation. For this project, I implemented a drum synthesizer component, which can play any of a bass, snare, two toms, and cymbals. The XML for these is specified as 'BassDrum', 'SnareDrum', 'LeftTom', 'RightTom', and 'Cymbals'.
+Included in this repository with the filename 'Chump Digga Dump Bump.score' is the XML file detailing the score used for this selection. Also present is 'Chump Digga Dump Bump.wav', which contains only the audio for this piece.
 
 Next, here is a piece demonstrating the three effects:
 
 https://github.com/lmgarvey/471-Project-1/assets/94126547/2da42957-f21c-4d8b-9915-369fe316471c
 
-The score for this piece is included in this repository under the name 'effects piece.score". The three effects operate on the implemented drum synthesizer, and work as follows:
+The score for this piece is included in this repository under the name 'effects piece.score', and its audio is included under the name 'effects piece.wav'. The three effects operate on the implemented drum synthesizer, and work as follows:
 
 - Flanging mixes two signals and delays one by a small and changing period. Its XML note tags additionally specify the maximum delay a signal can be ('delay'), the frequency at which the signal should modulate ('frequency'), and how many signals should be stored and repeated ('buffersize').
 - Noise gating stops sounds below a specified threshold from playing. Its XML note tags additionally specify the minimum frequency a signal must reach in order for the program to play its audio ('threshold'), the fade-in duration from silence to playing a given note ('attack'), and the fade-out duration from playing a given note to silence ('release').
@@ -30,4 +30,4 @@ Finally, here is a piece demonstrating the drum synthesizer component:
 
 https://github.com/lmgarvey/471-Project-1/assets/94126547/4b3e514d-965b-4cfc-b621-af98d140b329
 
-The score for this piece is included in this repository under the name 'synth piece.score". It is comprised of five synthesized drum sounds - bass, snare, left tom, right tom, and cymbals. Common to the XML 'note' attributes of all five are characteristics for envelope generation, which details how the note should begin and end. These characteristics are how long it should take for the sound to reach peak amplitude ('attack'), how long it should take for the sound to decay to its sustaining level ('decaytime'), the volume level during the sustaining phase ('sustainlevel'), how long it should take for the sound to fade out after releasing ('release'), and the overall volume of the sound ('amplitude').
+The score for this piece is included in this repository under the name 'synth piece.score", and its audio is included under the name 'synth piece.wav'. It is comprised of five synthesized drum sounds - bass, snare, left tom, right tom, and cymbals. Common to the XML 'note' attributes of all five are characteristics for envelope generation, which details how the note should begin and end. These characteristics are how long it should take for the sound to reach peak amplitude ('attack'), how long it should take for the sound to decay to its sustaining level ('decaytime'), the volume level during the sustaining phase ('sustainlevel'), how long it should take for the sound to fade out after releasing ('release'), and the overall volume of the sound ('amplitude').
